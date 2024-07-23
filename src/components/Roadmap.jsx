@@ -15,7 +15,7 @@ const Roadmap = () => {
 
         <div className="relative grid gap-6 md:grid-cols-2 md:gap-4 md:pb-[7rem]">
           {roadmap.map((item) => {
-            const status = item.status === "done" ? "Done" : "Ongoin";
+            const status = item.status === "done" ? "Done" : "Ongoing";
 
             return (
               <div
